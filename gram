@@ -1,5 +1,5 @@
 $digit = ONE | TWO | THREE | FOUR | FIVE |
-        SIX | SEVEN | EIGHT | NINE | OH | ZERO;
+        SIX | SEVEN | EIGHT | NINE | ZERO;
 $count = COUNT | HOW MANY;
 $operation = PLUS | MINUS | TIMES | DIVIDED BY; 
 $statement = $digit $operation;

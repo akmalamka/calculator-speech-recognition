@@ -1,0 +1,5 @@
+train/wav/sample1.wav train/mfcc/sample1.mfc
+train/wav/sample2.wav train/mfcc/sample2.mfc
+train/wav/sample3.wav train/mfcc/sample3.mfc
+train/wav/sample4.wav train/mfcc/sample4.mfc
+train/wav/sample5.wav train/mfcc/sample5.mfc

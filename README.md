@@ -12,6 +12,13 @@ command: HDMan -m -w wlist -n monophones1 -l dlog dict VoxForgeDict.txt
 
 no command, tinggal record pake audacity, gausah pake HSLab
 
+Pembagian recording ada di testprompts
+1 - 10 Akmal
+11 - 20 - Rickboi
+21 - 30 - Fariz
+31 - 40 Sena
+41 - 50 Hafidh
+
 ## Step 4. Creating the Transcription Files
 
 command 1: julia prompts2mlf.jl prompts.txt words.mlf

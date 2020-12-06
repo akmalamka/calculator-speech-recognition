@@ -1,0 +1,182 @@
+HVite -A -D -T 1 -l * -o SWT -b SENT-END -C config -H hmm7/macros -H hmm7/hmmdefs -i aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I words.mlf -S train.scp dict monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 28 physical / 28 logical HMMs
+Label file will be used to align each file
+Aligning File: train/mfcc/sample1.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END HOW MANY THREE NINE MINUS SENT-END  ==  [353 frames] -56.3587 [Ac=-19894.6 LM=0.0] (Act=10.3)
+Aligning File: train/mfcc/sample2.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END HOW MANY NINE NINE DIVIDED BY SENT-END  ==  [434 frames] -57.2253 [Ac=-24835.8 LM=0.0] (Act=12.5)
+Aligning File: train/mfcc/sample3.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END COUNT FIVE TWO DIVIDED BY SENT-END  ==  [371 frames] -54.7746 [Ac=-20321.4 LM=0.0] (Act=10.9)
+Aligning File: train/mfcc/sample4.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END COUNT SEVEN EIGHT MINUS SENT-END  ==  [308 frames] -56.4145 [Ac=-17375.7 LM=0.0] (Act=8.9)
+Aligning File: train/mfcc/sample5.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END HOW MANY THREE TWO DIVIDED BY SENT-END  ==  [416 frames] -56.2351 [Ac=-23393.8 LM=0.0] (Act=9.9)
+Aligning File: train/mfcc/sample6.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END COUNT SIX TWO MINUS SENT-END  ==  [308 frames] -55.9199 [Ac=-17223.3 LM=0.0] (Act=8.5)
+Aligning File: train/mfcc/sample7.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END COUNT SIX THREE MINUS SENT-END  ==  [326 frames] -55.2480 [Ac=-18010.9 LM=0.0] (Act=9.6)
+Aligning File: train/mfcc/sample8.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END COUNT EIGHT ONE DIVIDED BY SENT-END  ==  [344 frames] -56.0617 [Ac=-19285.2 LM=0.0] (Act=10.6)
+Aligning File: train/mfcc/sample9.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END COUNT ZERO FIVE DIVIDED BY SENT-END  ==  [371 frames] -56.6189 [Ac=-21005.6 LM=0.0] (Act=10.7)
+Aligning File: train/mfcc/sample10.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END HOW MANY ONE ONE DIVIDED BY SENT-END  ==  [416 frames] -57.4134 [Ac=-23884.0 LM=0.0] (Act=11.6)
+Aligning File: train/mfcc/sample11.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END COUNT ZERO EIGHT TIMES SENT-END  ==  [441 frames] -51.2260 [Ac=-22590.7 LM=0.0] (Act=9.4)
+Aligning File: train/mfcc/sample12.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END COUNT FIVE FIVE PLUS SENT-END  ==  [452 frames] -49.4632 [Ac=-22357.4 LM=0.0] (Act=9.8)
+Aligning File: train/mfcc/sample13.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END COUNT SEVEN THREE MINUS SENT-END  ==  [500 frames] -50.3333 [Ac=-25166.6 LM=0.0] (Act=8.8)
+Aligning File: train/mfcc/sample14.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END HOW MANY SIX EIGHT MINUS SENT-END  ==  [531 frames] -53.2533 [Ac=-28277.5 LM=0.0] (Act=10.1)
+Aligning File: train/mfcc/sample15.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END HOW MANY FOUR TWO DIVIDED BY SENT-END  ==  [525 frames] -51.9357 [Ac=-27266.2 LM=0.0] (Act=11.6)
+Aligning File: train/mfcc/sample16.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END COUNT FIVE THREE PLUS SENT-END  ==  [412 frames] -50.3894 [Ac=-20760.4 LM=0.0] (Act=9.8)
+Aligning File: train/mfcc/sample17.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END HOW MANY THREE ONE MINUS SENT-END  ==  [515 frames] -51.3422 [Ac=-26441.2 LM=0.0] (Act=9.9)
+Aligning File: train/mfcc/sample18.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END HOW MANY FOUR TWO TIMES SENT-END  ==  [503 frames] -50.9667 [Ac=-25636.3 LM=0.0] (Act=9.1)
+Aligning File: train/mfcc/sample19.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END HOW MANY FOUR FIVE TIMES SENT-END  ==  [515 frames] -50.6590 [Ac=-26089.4 LM=0.0] (Act=10.0)
+Aligning File: train/mfcc/sample20.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END COUNT FIVE EIGHT PLUS SENT-END  ==  [442 frames] -49.5438 [Ac=-21898.4 LM=0.0] (Act=8.6)
+Aligning File: train/mfcc/sample21.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END COUNT EIGHT FIVE MINUS SENT-END  ==  [299 frames] -55.7141 [Ac=-16658.5 LM=0.0] (Act=9.5)
+Aligning File: train/mfcc/sample22.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END HOW MANY TWO EIGHT MINUS SENT-END  ==  [380 frames] -55.3014 [Ac=-21014.5 LM=0.0] (Act=8.6)
+Aligning File: train/mfcc/sample23.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END COUNT EIGHT ZERO MINUS SENT-END  ==  [326 frames] -53.4578 [Ac=-17427.2 LM=0.0] (Act=7.9)
+Aligning File: train/mfcc/sample24.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+No tokens survived to final node of network at beam 250.0
+SENT-END HOW MANY FOUR SEVEN MINUS SENT-END  ==  [407 frames] -58.1761 [Ac=-23677.7 LM=0.0] (Act=11.6)
+Aligning File: train/mfcc/sample25.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END COUNT ZERO ONE MINUS SENT-END  ==  [326 frames] -55.2014 [Ac=-17995.7 LM=0.0] (Act=9.1)
+Aligning File: train/mfcc/sample26.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END COUNT THREE FIVE TIMES SENT-END  ==  [344 frames] -54.6613 [Ac=-18803.5 LM=0.0] (Act=8.9)
+Aligning File: train/mfcc/sample27.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END COUNT SIX FIVE TIMES SENT-END  ==  [353 frames] -56.3185 [Ac=-19880.4 LM=0.0] (Act=9.8)
+Aligning File: train/mfcc/sample28.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END COUNT TWO FIVE DIVIDED BY SENT-END  ==  [416 frames] -55.5734 [Ac=-23118.6 LM=0.0] (Act=9.4)
+Aligning File: train/mfcc/sample29.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END COUNT FOUR EIGHT DIVIDED BY SENT-END  ==  [443 frames] -55.1297 [Ac=-24422.5 LM=0.0] (Act=9.8)
+Aligning File: train/mfcc/sample30.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END COUNT THREE ZERO MINUS SENT-END  ==  [371 frames] -55.3913 [Ac=-20550.2 LM=0.0] (Act=8.6)
+Aligning File: train/mfcc/sample31.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END HOW MANY TWO EIGHT PLUS SENT-END  ==  [476 frames] -53.4457 [Ac=-25440.2 LM=0.0] (Act=9.1)
+Aligning File: train/mfcc/sample32.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END COUNT THREE SIX TIMES SENT-END  ==  [439 frames] -55.7769 [Ac=-24486.1 LM=0.0] (Act=9.2)
+Aligning File: train/mfcc/sample33.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END HOW MANY ZERO EIGHT MINUS SENT-END  ==  [483 frames] -52.5867 [Ac=-25399.4 LM=0.0] (Act=8.6)
+Aligning File: train/mfcc/sample34.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END HOW MANY SEVEN THREE MINUS SENT-END  ==  [567 frames] -52.7635 [Ac=-29916.9 LM=0.0] (Act=9.1)
+Aligning File: train/mfcc/sample35.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END COUNT NINE TWO DIVIDED BY SENT-END  ==  [516 frames] -52.2895 [Ac=-26981.4 LM=0.0] (Act=11.7)
+Aligning File: train/mfcc/sample36.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END COUNT FIVE FIVE MINUS SENT-END  ==  [439 frames] -53.3603 [Ac=-23425.2 LM=0.0] (Act=9.6)
+Aligning File: train/mfcc/sample37.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END HOW MANY TWO TWO MINUS SENT-END  ==  [532 frames] -50.5295 [Ac=-26881.7 LM=0.0] (Act=9.6)
+Aligning File: train/mfcc/sample38.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END HOW MANY ONE FIVE MINUS SENT-END  ==  [499 frames] -52.4542 [Ac=-26174.6 LM=0.0] (Act=10.7)
+Aligning File: train/mfcc/sample39.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END HOW MANY SEVEN SIX TIMES SENT-END  ==  [537 frames] -55.0450 [Ac=-29559.2 LM=0.0] (Act=8.8)
+Aligning File: train/mfcc/sample40.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END COUNT FOUR ZERO DIVIDED BY SENT-END  ==  [485 frames] -54.4788 [Ac=-26422.2 LM=0.0] (Act=9.7)
+Aligning File: train/mfcc/sample41.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END HOW MANY EIGHT SIX MINUS SENT-END  ==  [416 frames] -56.9414 [Ac=-23687.6 LM=0.0] (Act=9.6)
+Aligning File: train/mfcc/sample42.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END HOW MANY EIGHT ONE DIVIDED BY SENT-END  ==  [515 frames] -55.2589 [Ac=-28458.3 LM=0.0] (Act=10.6)
+Aligning File: train/mfcc/sample43.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END COUNT FIVE ONE MINUS SENT-END  ==  [371 frames] -55.7360 [Ac=-20678.0 LM=0.0] (Act=10.1)
+Aligning File: train/mfcc/sample44.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END COUNT EIGHT THREE MINUS SENT-END  ==  [416 frames] -54.8091 [Ac=-22800.6 LM=0.0] (Act=8.6)
+Aligning File: train/mfcc/sample45.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END HOW MANY FIVE NINE MINUS SENT-END  ==  [461 frames] -55.7540 [Ac=-25702.6 LM=0.0] (Act=10.3)
+Aligning File: train/mfcc/sample46.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END HOW MANY EIGHT FIVE DIVIDED BY SENT-END  ==  [488 frames] -55.3846 [Ac=-27027.7 LM=0.0] (Act=10.8)
+Aligning File: train/mfcc/sample47.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END COUNT EIGHT ONE PLUS SENT-END  ==  [353 frames] -54.8930 [Ac=-19377.2 LM=0.0] (Act=7.7)
+Aligning File: train/mfcc/sample48.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END HOW MANY EIGHT THREE MINUS SENT-END  ==  [452 frames] -55.8735 [Ac=-25254.8 LM=0.0] (Act=9.4)
+Aligning File: train/mfcc/sample49.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END COUNT EIGHT EIGHT DIVIDED BY SENT-END  ==  [443 frames] -54.7818 [Ac=-24268.4 LM=0.0] (Act=9.9)
+Aligning File: train/mfcc/sample50.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END COUNT EIGHT EIGHT TIMES SENT-END  ==  [398 frames] -53.5183 [Ac=-21300.3 LM=0.0] (Act=9.3)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

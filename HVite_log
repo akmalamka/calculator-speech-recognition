@@ -1,0 +1,151 @@
+HVite -A -D -T 1 -l * -o SWT -b SENT-END -C config -H hmm7/macros -H hmm7/hmmdefs -i aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I words.mlf -S train.scp dict monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 41 physical / 41 logical HMMs
+Label file will be used to align each file
+Aligning File: train/mfcc/sample1.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END DIAL ONE TWO THREE FOUR FIVE SIX SEVEN EIGHT NINE OH ZERO SENT-END  ==  [892 frames] -53.2445 [Ac=-47494.1 LM=0.0] (Act=6.5)
+Aligning File: train/mfcc/sample2.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END DIAL ONE THREE FIVE SEVEN NINE ZERO TWO FOUR SIX EIGHT OH SENT-END  ==  [793 frames] -54.9049 [Ac=-43539.6 LM=0.0] (Act=6.4)
+Aligning File: train/mfcc/sample3.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END DIAL ZERO NINE SEVEN FIVE THREE ONE OH EIGHT SIX FOUR TWO SENT-END  ==  [829 frames] -53.8091 [Ac=-44607.8 LM=0.0] (Act=6.6)
+Aligning File: train/mfcc/sample4.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+SENT-END DIAL ONE ONE TWO TWO THREE THREE FOUR FOUR FIVE FIVE SENT-END  ==  [721 frames] -53.2103 [Ac=-38364.6 LM=0.0] (Act=7.2)
+Aligning File: train/mfcc/sample5.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+SENT-END DIAL SIX SIX SEVEN SEVEN EIGHT EIGHT NINE NINE OH OH ZERO ZERO SENT-END  ==  [856 frames] -55.0209 [Ac=-47097.9 LM=0.0] (Act=7.2)
+Aligning File: train/mfcc/sample6.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END PHONE STEVE YOUNG CALL STEVE YOUNG SENT-END  ==  [470 frames] -52.7423 [Ac=-24788.9 LM=0.0] (Act=5.6)
+Aligning File: train/mfcc/sample7.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END PHONE STEVE CALL STEVE PHONE YOUNG CALL YOUNG SENT-END  ==  [596 frames] -52.6149 [Ac=-31358.5 LM=0.0] (Act=5.7)
+Aligning File: train/mfcc/sample8.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END PHONE PHONE STEVE STEVE CALL CALL YOUNG YOUNG SENT-END  ==  [542 frames] -54.8407 [Ac=-29723.7 LM=0.0] (Act=6.9)
+Aligning File: train/mfcc/sample9.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END MEASURE LEISURE AND LEISURE MEASURE SENT-END  ==  [497 frames] -52.8134 [Ac=-26248.3 LM=0.0] (Act=6.9)
+Aligning File: train/mfcc/sample10.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END COMPLAIN CHAMPLAIN AIRPLANE ELAINE EXPLAIN SENT-END  ==  [641 frames] -54.8814 [Ac=-35179.0 LM=0.0] (Act=6.7)
+Aligning File: train/mfcc/sample11.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END BOOKENDS KENNEL KENNETH KENYA WEEKEND SENT-END  ==  [560 frames] -56.0960 [Ac=-31413.8 LM=0.0] (Act=8.7)
+Aligning File: train/mfcc/sample12.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END BELT BELOW BEND AEROBIC DASHBOARD DATABASE SENT-END  ==  [623 frames] -54.8808 [Ac=-34190.8 LM=0.0] (Act=6.3)
+Aligning File: train/mfcc/sample13.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END GATEWAY GATORADE GAZEBO AFGHAN AGAINST AGATHA SENT-END  ==  [704 frames] -54.7579 [Ac=-38549.6 LM=0.0] (Act=6.8)
+Aligning File: train/mfcc/sample14.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END ABALON ABDOMINALS BODY ABOLISH SENT-END  ==  [497 frames] -54.8394 [Ac=-27255.2 LM=0.0] (Act=6.1)
+Aligning File: train/mfcc/sample15.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END ABOUNDING ABOUT ACCOUNT ALLENTOWN SENT-END  ==  [506 frames] -54.2921 [Ac=-27471.8 LM=0.0] (Act=7.1)
+Aligning File: train/mfcc/sample16.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END ACHIEVE ACTUAL ACUPUNCTURE ADVENTURE SENT-END  ==  [551 frames] -55.3650 [Ac=-30506.1 LM=0.0] (Act=7.2)
+Aligning File: train/mfcc/sample17.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END ALGORITHM ALTHOUGH ALTOGETHER ANOTHER SENT-END  ==  [569 frames] -55.0823 [Ac=-31341.8 LM=0.0] (Act=8.1)
+Aligning File: train/mfcc/sample18.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END BATTLE BEATLE LITTLE METAL SENT-END  ==  [452 frames] -54.5605 [Ac=-24661.4 LM=0.0] (Act=6.9)
+Aligning File: train/mfcc/sample19.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END BITTEN BLATANT BRIGHTEN BRITAIN SENT-END  ==  [452 frames] -53.2773 [Ac=-24081.4 LM=0.0] (Act=7.0)
+Aligning File: train/mfcc/sample20.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END BROOKHAVEN HOOD BROUHAHA BULLHEADS SENT-END  ==  [515 frames] -54.2658 [Ac=-27946.9 LM=0.0] (Act=7.6)
+Aligning File: train/mfcc/sample21.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END BUSBOYS CHOICE COILS COIN SENT-END  ==  [443 frames] -55.4895 [Ac=-24581.9 LM=0.0] (Act=5.5)
+Aligning File: train/mfcc/sample22.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END COLLECTION COLORATION COMBINATION COMMERCIAL SENT-END  ==  [515 frames] -55.0909 [Ac=-28371.8 LM=0.0] (Act=6.3)
+Aligning File: train/mfcc/sample23.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END MIDDLE NEEDLE POODLE SADDLE SENT-END  ==  [461 frames] -54.9323 [Ac=-25323.8 LM=0.0] (Act=6.2)
+Aligning File: train/mfcc/sample24.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END ALRIGHT ARTHRITIS BRIGHT COPYRIGHT CRITERIA RIGHT SENT-END  ==  [677 frames] -54.8125 [Ac=-37108.0 LM=0.0] (Act=6.3)
+Aligning File: train/mfcc/sample25.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END COUPLE CRADLE CRUMBLE SENT-END  ==  [353 frames] -54.3682 [Ac=-19192.0 LM=0.0] (Act=7.3)
+Aligning File: train/mfcc/sample26.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END CUBA CUBE CUMULATIVE SENT-END  ==  [389 frames] -54.2741 [Ac=-21112.6 LM=0.0] (Act=7.3)
+Aligning File: train/mfcc/sample27.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END CURING CURLING CYCLING SENT-END  ==  [407 frames] -53.2154 [Ac=-21658.7 LM=0.0] (Act=5.4)
+Aligning File: train/mfcc/sample28.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END CYNTHIA DANFORTH DEPTH SENT-END  ==  [398 frames] -53.8328 [Ac=-21425.5 LM=0.0] (Act=7.7)
+Aligning File: train/mfcc/sample29.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END DIGEST DIGITAL DILIGENT SENT-END  ==  [398 frames] -53.2626 [Ac=-21198.5 LM=0.0] (Act=6.1)
+Aligning File: train/mfcc/sample30.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END AMNESIA ASIA AVERSION BEIGE BEIJING SENT-END  ==  [641 frames] -55.4496 [Ac=-35543.2 LM=0.0] (Act=7.3)
+Aligning File: train/mfcc/sample31.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END HELP HELLO HELMET HELPLESS AHEAD HELP SENT-END  ==  [623 frames] -54.9212 [Ac=-34215.9 LM=0.0] (Act=8.0)
+Aligning File: train/mfcc/sample32.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END VOXFORGE HOME READ LISTEN FORUMS DEVELOPER ABOUT HOWTO TUTORIAL SENT-END  ==  [874 frames] -55.5116 [Ac=-48517.2 LM=0.0] (Act=6.8)
+Aligning File: train/mfcc/sample33.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END RHYTHMBOX PLAY START NEXT SKIP FORWARD PREVIOUS BACK SENT-END  ==  [730 frames] -55.9581 [Ac=-40849.4 LM=0.0] (Act=6.8)
+Aligning File: train/mfcc/sample34.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END MUSIC SHOW WHO ABOUT INFORMATION UP LOUDER DOWN LOWER SENT-END  ==  [901 frames] -55.0133 [Ac=-49566.9 LM=0.0] (Act=7.0)
+Aligning File: train/mfcc/sample35.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END PLAYER SOFTER SILENCE STOP QUIET SENT-END  ==  [560 frames] -54.2188 [Ac=-30362.5 LM=0.0] (Act=6.5)
+Aligning File: train/mfcc/sample36.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END COMPUTER WEATHER EMAIL VOLUME LOUDER SOFTER SENT-END  ==  [686 frames] -54.6299 [Ac=-37476.1 LM=0.0] (Act=7.0)
+Aligning File: train/mfcc/sample37.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END COMPUTERIZE AMPUTATE MINICOMPUTER PUMA'S PEWTER SENT-END  ==  [560 frames] -56.5048 [Ac=-31642.7 LM=0.0] (Act=7.9)
+Aligning File: train/mfcc/sample38.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END ACUTE AMPUTATION BOOTERS CONTRIBUTOR'S ALOUETTE GIFTWARE GLADWELL SENT-END  ==  [847 frames] -57.1105 [Ac=-48372.6 LM=0.0] (Act=7.2)
+Aligning File: train/mfcc/sample39.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END MAYWEATHER WHETHER WOODSTREAM ARTILLERYMAN CREMATION DAIRYMAID FEMALE SENT-END  ==  [937 frames] -55.7766 [Ac=-52262.6 LM=0.0] (Act=6.6)
+Aligning File: train/mfcc/sample40.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END ISHMAEL'S LANCEDALE LAVAL VOLATILE SCALIA SOLUBLE SUPERVALUE VALUATION SENT-END  ==  [1045 frames] -58.7397 [Ac=-61382.9 LM=0.0] (Act=8.2)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

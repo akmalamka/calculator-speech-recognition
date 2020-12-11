@@ -23,7 +23,6 @@ AND             [AND]           ah n d sp
 ANGRY           [ANGRY]         ae ng g r iy sp
 ANTENNA         [ANTENNA]       ae n t eh n ah sp
 ANYWAY          [ANYWAY]        eh n iy w ey sp
-APPLES          [APPLES]        ae p ah l z sp
 APPLIED         [APPLIED]       ah p l ay d sp
 ARE             [ARE]           aa r sp
 ARGUMENT        [ARGUMENT]      aa r g y ah m ah n t sp
@@ -54,6 +53,7 @@ BELIEVE         [BELIEVE]       b ih l iy v sp
 BIRTH           [BIRTH]         b er th sp
 BITTER          [BITTER]        b ih t er sp
 BLINKING        [BLINKING]      b l ih ng k ih ng sp
+BLOOD           [BLOOD]         b l ah d sp
 BLURRED         [BLURRED]       b l er d sp
 BOIL            [BOIL]          b oy l sp
 BOTTLE          [BOTTLE]        b aa t ah l sp
@@ -92,9 +92,11 @@ COLORS          [COLORS]        k ah l er z sp
 COME            [COME]          k ah m sp
 COMING          [COMING]        k ah m ih ng sp
 COMPLICATED     [COMPLICATED]   k aa m p l ah k ey t ah d sp
+CONCENTRATION   [CONCENTRATION] k aa n s ah n t r ey sh ah n sp
 CONDITIONS      [CONDITIONS]    k ah n d ih sh ah n z sp
 CONFIDENT       [CONFIDENT]     k aa n f ah d ah n t sp
 CONFUSED        [CONFUSED]      k ah n f y uw z d sp
+CONSIDERED      [CONSIDERED]    k ah n s ih d er d sp
 COOK            [COOK]          k uh k sp
 CORNY           [CORNY]         k ao r n iy sp
 COULD           [COULD]         k uh d sp
@@ -135,14 +137,12 @@ DOLL            [DOLL]          d aa l sp
 DOWN            [DOWN]          d aw n sp
 DRAMATICALLY    [DRAMATICALLY]  d r ah m ae t ih k l iy sp
 DRANK           [DRANK]         d r ae ng k sp
-DREAMED         [DREAMED]       d r iy m d sp
 DUNGEON         [DUNGEON]       d ah n jh ah n sp
 DYNAMITE        [DYNAMITE]      d ay n ah m ay t sp
 EAGERLY         [EAGERLY]       iy g er l iy sp
 EASIER          [EASIER]        iy z iy er sp
 EASILY          [EASILY]        iy z ah l iy sp
 EAT             [EAT]           iy t sp
-EATING          [EATING]        iy t ih ng sp
 EFFICIENCY      [EFFICIENCY]    ih f ih sh ah n s iy sp
 EFFORT          [EFFORT]        eh f er t sp
 EMOTIONAL       [EMOTIONAL]     ih m ow sh ah n ah l sp
@@ -179,6 +179,7 @@ FOCUS           [FOCUS]         f ow k ah s sp
 FOG             [FOG]           f aa g sp
 FOOD            [FOOD]          f uw d sp
 FOR             [FOR]           f ao r sp
+FORGOTTEN       [FORGOTTEN]     f er g aa t ah n sp
 FOUND           [FOUND]         f aw n d sp
 FREEZER         [FREEZER]       f r iy z er sp
 FROM            [FROM]          f r ah m sp
@@ -188,7 +189,6 @@ GAVE            [GAVE]          g ey v sp
 GENERATIONS     [GENERATIONS]   jh eh n er ey sh ah n z sp
 GENTLEMAN       [GENTLEMAN]     jh eh n t ah l m ah n sp
 GHOSTS          [GHOSTS]        g ow s t s sp
-GIFT            [GIFT]          g ih f t sp
 GINGERLY        [GINGERLY]      jh ih n jh er l iy sp
 GIRLS           [GIRLS]         g er l z sp
 GIVE            [GIVE]          g ih v sp
@@ -202,7 +202,6 @@ GOTTEN          [GOTTEN]        g aa t ah n sp
 GRABBED         [GRABBED]       g r ae b d sp
 GREAT           [GREAT]         g r ey t sp
 GREEDY          [GREEDY]        g r iy d iy sp
-GREEN           [GREEN]         g r iy n sp
 GROW            [GROW]          g r ow sp
 HAD             [HAD]           hh ae d sp
 HAPPENED        [HAPPENED]      hh ae p ah n d sp
@@ -335,7 +334,6 @@ ORDERS          [ORDERS]        ao r d er z sp
 OTHER           [OTHER]         ah dh er sp
 OUT             [OUT]           aw t sp
 PACKED          [PACKED]        p ae k t sp
-PAINT           [PAINT]         p ey n t sp
 PANDA           [PANDA]         p ae n d ah sp
 PARENTS         [PARENTS]       p eh r ah n t s sp
 PARKING         [PARKING]       p aa r k ih ng sp
@@ -363,6 +361,7 @@ PRECONCEIVED    [PRECONCEIVED]  p r iy k ah n s iy v d sp
 PROBABLY        [PROBABLY]      p r aa b ah b l iy sp
 PROBLEMS        [PROBLEMS]      p r aa b l ah m z sp
 PROCESS         [PROCESS]       p r aa s eh s sp
+PRODUCTS        [PRODUCTS]      p r aa d ah k t s sp
 PROMOTION       [PROMOTION]     p r ah m ow sh ah n sp
 PURPOSELY       [PURPOSELY]     p er p ah s l iy sp
 PUT             [PUT]           p uh t sp
@@ -378,6 +377,7 @@ REALIZE         [REALIZE]       r iy ah l ay z sp
 REALLY          [REALLY]        r ih l iy sp
 RECITE          [RECITE]        r ah s ay t sp
 RED             [RED]           r eh d sp
+REDISCOVERED    [REDISCOVERED]  r iy d ih s k ah v er d sp
 REMOVING        [REMOVING]      r iy m uw v ih ng sp
 RENTAL          [RENTAL]        r eh n t ah l sp
 RHYMES          [RHYMES]        r ay m z sp
@@ -424,7 +424,6 @@ SOFT            [SOFT]          s aa f t sp
 SOLVED          [SOLVED]        s aa l v d sp
 SOMEONE         [SOMEONE]       s ah m w ah n sp
 SOMETHING       [SOMETHING]     s ah m th ih ng sp
-SONGS           [SONGS]         s ao ng z sp
 SOON            [SOON]          s uw n sp
 SOUND           [SOUND]         s aw n d sp
 SOUTH           [SOUTH]         s aw th sp
@@ -485,8 +484,11 @@ TOUR            [TOUR]          t uh r sp
 TOWARD          [TOWARD]        t ah w ao r d sp
 TOWER           [TOWER]         t aw er sp
 TOWN            [TOWN]          t aw n sp
+TRANSFERRING    [TRANSFERRING]  t r ae n s f er ih ng sp
+TRANSFUSION     [TRANSFUSION]   t r ae n s f y uw zh ah n sp
 TRASH           [TRASH]         t r ae sh sp
 TRAVEL          [TRAVEL]        t r ae v ah l sp
+TREASURE        [TREASURE]      t r eh zh er sp
 TREES           [TREES]         t r iy z sp
 TRYING          [TRYING]        t r ay ih ng sp
 TSUNAMI         [TSUNAMI]       t s uw n aa m iy sp
@@ -521,6 +523,7 @@ WATER           [WATER]         w ao t er sp
 WAVE            [WAVE]          w ey v sp
 WAY             [WAY]           w ey sp
 WE              [WE]            w iy sp
+WEALTH          [WEALTH]        w eh l th sp
 WEARING         [WEARING]       w eh r ih ng sp
 WENT            [WENT]          w eh n t sp
 WERE            [WERE]          w er sp
@@ -544,7 +547,6 @@ WONDERFUL       [WONDERFUL]     w ah n d er f ah l sp
 WORK            [WORK]          w er k sp
 WORKS           [WORKS]         w er k s sp
 WORLD           [WORLD]         w er l d sp
-WORMS           [WORMS]         w er m z sp
 WORTH           [WORTH]         w er th sp
 WOULD           [WOULD]         w uh d sp
 YEARS           [YEARS]         y ih r z sp

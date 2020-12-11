@@ -12,7 +12,7 @@ command: HDMan -m -w wlist -n monophones1 -l dlog dict VoxForgeDict.txt
 
 no command, tinggal record pake audacity, gausah pake HSLab
 
-Pembagian recording ada di "buat lagi/prompts"
+Pembagian recording ada di "buat lagi/tutorial/prompts.txt"
 1 - 20 Akmal
 21 - 40 - Rickboi
 41 - 60 - Fariz

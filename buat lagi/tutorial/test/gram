@@ -1,0 +1,4 @@
+$digit = ONE | TWO | THREE | FOUR | FIVE | SIX | SEVEN | EIGHT | NINE | ZERO;
+$operator = PLUS | MINUS | TIMES | DIVIDE;
+$sent = COUNT $digit $operator $digit;
+( SENT-START ($sent) SENT-END )
